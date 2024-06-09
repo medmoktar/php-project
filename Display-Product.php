@@ -82,10 +82,11 @@
                   </td>
                   </tr>
                   
-                  <?php }} ?>
+                  <?php } ?>
                 </tbody>
               </table>
           </div>
+          
           <nav aria-label="Page navigation example ">
   <ul class="pagination k">
   <?php if(isset($_GET["page-nr"]) && $_GET["page-nr"]>1){
@@ -114,7 +115,7 @@
     <?php }else{ 
     ?> 
       <li class="page-item"><a class="page-link" href="?page-nr=<?= $_GET["page-nr"] + 1 ?>">Next</a></li>
-   <?php }}  
+   <?php }}  }
  ?>   
     
   </ul>

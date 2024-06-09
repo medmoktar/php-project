@@ -82,7 +82,7 @@
                   </td>
                   </tr>
                   
-                  <?php }} ?>
+                  <?php } ?>
                 </tbody>
               </table>
         </div>
@@ -115,7 +115,7 @@
     <?php }else{ 
     ?> 
       <li class="page-item"><a class="page-link" href="?page-nr=<?= $_GET["page-nr"] + 1 ?>">Next</a></li>
-   <?php }}  
+   <?php }}  }
  ?>   
     
   </ul>
